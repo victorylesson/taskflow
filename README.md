@@ -1,16 +1,43 @@
-# React + Vite
+# TaskFlow 📋
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web de gerenciamento de tarefas com autenticação JWT, desenvolvida com React + Node.js + MongoDB.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Frontend:** React, Vite, Tailwind CSS
+- **Backend:** Node.js, Express, JWT
+- **Banco de dados:** MongoDB Atlas
+- **Deploy:** Vercel (front) + Render (back)
+- **CI/CD:** GitHub Actions
 
-## React Compiler
+## ✨ Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Cadastro e login de usuários com autenticação JWT
+- Criar, listar, concluir e remover tarefas
+- Interface responsiva e moderna
 
-## Expanding the ESLint configuration
+## 📦 Como rodar localmente
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Clone o repositório
+git clone https://github.com/victorylesson/taskflow.git
+cd taskflow
+
+# Instale as dependências do frontend
+npm install
+npm run dev
+
+# Em outro terminal, instale o backend
+cd server
+npm install
+npm run dev
+```
+
+## 🌐 Deploy
+
+- Frontend: em breve
+- Backend: em breve
+
+## 👨‍💻 Autor
+
+Feito por [Victory Mendes](https://victory-dev.vercel.app/)
