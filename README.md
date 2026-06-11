@@ -33,11 +33,6 @@ npm install
 npm run dev
 ```
 
-## 🌐 Deploy
-
-- Frontend: em breve
-- Backend: em breve
-
 ## 👨‍💻 Autor
 
 Feito por [Victory Mendes](https://victory-dev.vercel.app/)
